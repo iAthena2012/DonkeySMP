@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 22px; /* Increased base font size for bigger text */
+}
+
+header {
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em; /* Bigger header font */
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.5em; /* Increased link font size */
+}
+
+nav a:hover {
+    background-color: #45a049; /* Darker green on hover */
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro, .ranks, .earning, .projects, .commands {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+    color: #FF5722;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #008CBA; /* Blue button */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em; /* Increased button font size */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73; /* Darker blue on hover */
+}
+
+footer {
+    background: #4CAF50;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2em; /* Increased footer font size */
+}
